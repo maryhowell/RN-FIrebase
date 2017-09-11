@@ -7,7 +7,7 @@
 
 // Create a component
 const App = () => (
-  <Header />
+  <Header headerText={'Albums!'} />
 );
 
 
