@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-const AlbumList = () => {
+class AlbumList extends Component {
   return (
     <View>
       <Text> Album List </Text>
