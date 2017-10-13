@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactNative from 'react-native';
+import { Text } from 'react-native';
 
 const Header = () => {
-  return <Text></Text>;
+  return <Text>Albums!</Text>;
 };
