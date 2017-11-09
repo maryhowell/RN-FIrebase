@@ -5,11 +5,10 @@
 
 
 // Create a component
-const App = () => {
-  return (
-    <Text>Some Text</Text>
-  );
-};
+const App = () => (
+  <Text>Some Text</Text>
+);
+
 
 // render it to the device 
 AppRegistry.registerComponent('albums', () => App);
