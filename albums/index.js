@@ -1,7 +1,7 @@
 // Index.ios.js - place code in here for IOS!!
 // Import Library to help create component
  import React from 'react';
- import { Text } from 'react-native';
+ import { AppRegistry, View, Text } from 'react-native';
 
 
 // Create a component
