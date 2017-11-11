@@ -12,3 +12,5 @@ const App = () => (
 
 // render it to the device 
 AppRegistry.registerComponent('albums', () => App);
+
+git commit --date="11 day ago" -m "it renders"
