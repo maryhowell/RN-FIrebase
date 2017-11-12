@@ -2,6 +2,7 @@
 // Import Library to help create component
  import React from 'react';
  import { AppRegistry, View, Text } from 'react-native';
+ import Header from './src/components/header';
 
 
 // Create a component
