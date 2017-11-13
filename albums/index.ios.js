@@ -7,7 +7,7 @@
 
 // Create a component
 const App = () => (
-  <Text>Some Text</Text>
+  <Header />
 );
 
 
