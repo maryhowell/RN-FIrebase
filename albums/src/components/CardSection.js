@@ -3,12 +3,12 @@ import { View } from 'react-native';
 
 const CardSection = () => {
   return (
-    <View></View>
+    <View style={styles.containerStyle}></View>
   )
   
 };
 
-const style = {
+const styles = {
   containerStyle: {
     borderBottomWidth: 1,
     padding: 5,
