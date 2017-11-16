@@ -3,7 +3,8 @@ import { Text } from 'react-native';
 
 const Header = () => {
   const { textStyle } = styles;
-  return <Text>Albums!</Text>;
+
+  return <Text style={textStyle}>Albums!</Text>;
 };
 
 const styles = {
