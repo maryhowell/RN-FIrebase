@@ -17,4 +17,8 @@ const AlbumDetail = (props) => {
   );
 };
 
+const styles = {
+  
+};
+
 export default AlbumDetail;
