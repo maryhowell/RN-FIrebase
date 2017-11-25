@@ -8,4 +8,13 @@ const CardSection = () => {
   
 };
 
+const style = {
+  containerStyle: {
+    borderBottonWidth: 1,
+    padding: 5,
+    backgroundColor: '#fff',
+  }
+  
+};
+
 export default CardSection;
