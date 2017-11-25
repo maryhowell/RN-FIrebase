@@ -18,6 +18,9 @@ const AlbumDetail = (props) => {
 };
 
 const styles = {
+  headerContentStyle: {
+    
+  }
   
 };
 
