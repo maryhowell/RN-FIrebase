@@ -7,7 +7,9 @@ const AlbumDetail = (props) => {
   return (
     <Card>
       <CardSection>
-        <View></View>
+        <View>
+          <Image source={{ uri: props.album.thumbnail_image }} />
+        </View>
         <View style={styles.headerContentStyle}>
           <Text>{props.album.title}</Text>
           <Text>{props.album.artist}</Text>
