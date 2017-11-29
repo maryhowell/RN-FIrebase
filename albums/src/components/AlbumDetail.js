@@ -24,6 +24,10 @@ const styles = {
   headerContentStyle: {
     flexDirection: 'column',
     justifyContent: 'space-around'
+  },
+  thumbnailStyle: {
+    height: 50,
+    width: 50
   }
   
 };
