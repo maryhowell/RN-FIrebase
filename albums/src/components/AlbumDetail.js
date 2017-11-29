@@ -9,7 +9,10 @@ const AlbumDetail = ({ album }) => {
     <Card>
       <CardSection>
         <View>
-          <Image source={{ uri: thumbnail_image }} />
+          <Image 
+            style={styles.thumbnailStyle}
+            source={{ uri: thumbnail_image }} 
+          />
         </View>
         <View style={styles.headerContentStyle}>
           <Text>{ title }</Text>
