@@ -7,7 +7,7 @@ const CardSection = (props) => {
     {props.children}
     </View>
   )
-  
+
 };
 
 const styles = {
@@ -19,9 +19,9 @@ const styles = {
     flexDirection: 'row',
     borderColor: '#ddd',
     position: 'relative',
-    
+
   }
-  
+
 };
 
-export default CardSection;
+export { CardSection };
