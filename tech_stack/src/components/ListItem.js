@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
 import { CardSection } from './common';
+import * as actions from '../actions';
 
 class ListItem extends Component {
   render() {
@@ -9,12 +10,11 @@ class ListItem extends Component {
 
     return (
       <CardSection>
-        <Text style={ titleStyle }> 
+        <Text style={ titleStyle }>
           {this.props.library.title}
         </Text>
       </CardSection>
-    )
-
+    );
   }
 }
 
